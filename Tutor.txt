@@ -1,0 +1,6 @@
+install database : db_arthavest
+ganti settingan config database di : application/config/database.php
+sesuaikan semua username dan password dengan database lu
+link admin arthavest/index.php/admin
+username aiman
+pass fadhil

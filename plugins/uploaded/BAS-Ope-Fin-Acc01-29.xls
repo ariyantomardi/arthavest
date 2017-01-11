@@ -1,0 +1,1024 @@
+<h4>Peringkat Kehadiran Periode 2016-02-01 s/d 2016-02-29</h4><table width="50%" border="0" cellspacing="0" cellpadding="0" id="detail_table1" class="table table-hover" style="font-size:12px; margin-bottom:0px">
+					
+						<thead>
+						
+						<th>EeNo</th>
+						<th>Dept</th>
+						<th>Employee Name</th>
+						<th>TTL HC</th>
+						<th>Mandays</th>
+						<th>HADIR</th>
+						<th>SAKIT</th>
+						<th>IJIN</th>
+						<th>ALPA</th>
+						<th>CUTI</th>
+						<th>% HADIR</th>
+						<th>% SAKIT</th>
+						<th>% IJIN</th>
+						<th>% ALPA</th>
+						<th>Min % Hadir</th>
+						</thead>
+						<tbody>
+					<tr><td><a style="cursor:pointer;" onclick="opencont_allemp('comp','BAS','All','All','All','2016-02-01','2016-02-29')">6010048   </a></td>
+										 <td><a style="cursor:pointer;" onclick="opencont_allemp('dept','BAS','2000000','2300000','23B0000','2016-02-01','2016-02-29')">Accounting Department                   </a></td>
+										 
+							 <td><a style="cursor:pointer;" onclick="detail_employee('bydate','6010048','2016-02-01','2016-02-29')">AFFI  FATIHANA                                              </a></td>
+								 
+								<td>1</td>
+								<td>19</td>
+								<td>17</ttdh>
+								<td><a style="cursor:pointer;" onclick="opencont_tmdetail('noview','sakit','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">0</a></td>
+								<td><a style="cursor:pointer;color:#090" onclick="opencont_tmdetail('noview','ijin','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">2</a></td>
+								<td><a style="cursor:pointer;color:#F00" onclick="opencont_tmdetail('noview','alpa','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">0</a></td>
+								<td>1</td>
+								<td>89.47</td>
+								<td>0</td>
+								<td>10.53</td>
+								<td>0</td>
+								<td>98</td>
+							</tr>
+							<tr><td><a style="cursor:pointer;" onclick="opencont_allemp('comp','BAS','All','All','All','2016-02-01','2016-02-29')">6010018   </a></td>
+										 <td><a style="cursor:pointer;" onclick="opencont_allemp('dept','BAS','2000000','2300000','23B0000','2016-02-01','2016-02-29')">Accounting Department                   </a></td>
+										 
+							 <td><a style="cursor:pointer;" onclick="detail_employee('bydate','6010018','2016-02-01','2016-02-29')">ARIF  NUGRAHA                                               </a></td>
+								 
+								<td>1</td>
+								<td>19</td>
+								<td>19</ttdh>
+								<td><a style="cursor:pointer;" onclick="opencont_tmdetail('noview','sakit','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">0</a></td>
+								<td><a style="cursor:pointer;color:#090" onclick="opencont_tmdetail('noview','ijin','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">0</a></td>
+								<td><a style="cursor:pointer;color:#F00" onclick="opencont_tmdetail('noview','alpa','BAS','non','BAS','2000000','2300000','2016-02-01','2016-02-29')">0</a></td>
+								<td>1</td>
+								<td>100</td>
+								<td>0</td>
+								<td>0</td>
+								<td>0</td>
+								<td>98</td>
+							</tr>
+							
+
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3" align="center" style="font-weight:bold">Total</td>
+				<td style="font-weight:bold">2</td>
+				<td style="font-weight:bold">38</td>
+				<td style="font-weight:bold">36</td>
+				<td style="font-weight:bold">0</td>
+				<td style="font-weight:bold">2</td>
+				<td style="font-weight:bold">0</td>
+				<td style="font-weight:bold">2</td>
+				<td style="font-weight:bold">94.74</td>
+				<td style="font-weight:bold">0</td>
+				<td style="font-weight:bold">5.26</td>
+				<td style="font-weight:bold">0</td>
+				<td style="font-weight:bold">98</td>
+			</tr>
+		</tfoot>
+		</table>
+		
+			<div id="excel_table" name="excel_table">
+				
+					<h3>SBU : TGE    </h3>
+					<h3>Company : PT. Bara Anugrah Sejahtera                                  </h3>
+					<h4>Directorate : Operation Directorate                   </h4>
+					<h4>Division : Finance Division                        </h4>
+					<h4>Department :Accounting Department                   </h4>
+					<h4>Date :2016-02-01 to 2016-02-29</h4>
+					<br/>
+				
+				<div class="table-responsive">
+					
+			<form id="f_attendence" name="f_attendence" method="post">
+
+					<h3>ARIF  NUGRAHA                                                - 6010018   </h3>
+					<h5>Izin 	: 0 hari</h5>
+					<h5>Sakit 	: 0 hari</h5>
+					<h5>Alpa	:0 hari</h5>
+					<h5>Cuti	:1 hari</h5>
+					<table width="50%" border="0" cellspacing="0" cellpadding="0" class="table table-hover" style="font-size:12px; margin-bottom:0px">
+						<thead>
+							<tr>
+							<th>Date</th>
+							<th>Day</th>
+							<th>Start</th>
+							<th>End</th>
+							<th>Status</th>
+							<th>Active Start</th>
+							<th>Active End</th>
+							<th>Service Hour</th>
+							<th>Overtime</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+					
+					 	<tr >
+					 	<td>2016-02-01</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:11</td>
+						<td>17:33</td>
+						<td>8.22</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-02</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:21</td>
+						<td>17:39</td>
+						<td>8.18</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-03</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:48</td>
+						<td>17:40</td>
+						<td>7.52</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-04</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:30</td>
+						<td>17:40</td>
+						<td>8.1</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-05</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>7:38</td>
+						<td>17:33</td>
+						<td>8.55</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-06</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-07</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-08</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-09</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:44</td>
+						<td>17:43</td>
+						<td>7.59</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-10</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:16</td>
+						<td>18:41</td>
+						<td>9.25</td>
+						<td>1.25</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-11</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:30</td>
+						<td>17:45</td>
+						<td>8.15</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-12</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>cuti</td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-13</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-14</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-15</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>10:53</td>
+						<td>17:49</td>
+						<td>5.56</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-16</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:44</td>
+						<td>17:37</td>
+						<td>7.53</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-17</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:53</td>
+						<td>17:43</td>
+						<td>7.5</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-18</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:03</td>
+						<td>17:38</td>
+						<td>8.35</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-19</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:28</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>Lupa Catat Out                          
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-20</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-21</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-22</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:14</td>
+						<td>17:38</td>
+						<td>8.24</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-23</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>7:57</td>
+						<td>17:40</td>
+						<td>8.43</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-24</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:28</td>
+						<td>17:36</td>
+						<td>8.08</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-25</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>0:00</td>
+						<td>17:37</td>
+						<td>0</td>
+						<td>0</td>
+						<td>Lupa Catat In                           
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-26</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:46</td>
+						<td>17:33</td>
+						<td>7.47</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-27</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-28</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-29</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>9:34</td>
+						<td>17:32</td>
+						<td>6.58</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+						</tbody>
+					</table>
+
+					<br/>
+				
+
+					<h3>AFFI  FATIHANA                                               - 6010048   </h3>
+					<h5>Izin 	: 2 hari</h5>
+					<h5>Sakit 	: 0 hari</h5>
+					<h5>Alpa	:0 hari</h5>
+					<h5>Cuti	:1 hari</h5>
+					<table width="50%" border="0" cellspacing="0" cellpadding="0" class="table table-hover" style="font-size:12px; margin-bottom:0px">
+						<thead>
+							<tr>
+							<th>Date</th>
+							<th>Day</th>
+							<th>Start</th>
+							<th>End</th>
+							<th>Status</th>
+							<th>Active Start</th>
+							<th>Active End</th>
+							<th>Service Hour</th>
+							<th>Overtime</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+					
+					 	<tr >
+					 	<td>2016-02-01</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>9:02</td>
+						<td>17:43</td>
+						<td>7.41</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-02</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>9:00</td>
+						<td>17:36</td>
+						<td>7.36</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-03</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>izin</td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-04</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:51</td>
+						<td>17:34</td>
+						<td>7.43</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-05</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>9:02</td>
+						<td>17:32</td>
+						<td>7.3</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-06</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-07</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-08</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-09</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:41</td>
+						<td>17:32</td>
+						<td>7.51</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-10</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:41</td>
+						<td>18:26</td>
+						<td>8.45</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-11</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:56</td>
+						<td>17:33</td>
+						<td>7.37</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-12</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:35</td>
+						<td>17:38</td>
+						<td>8.03</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-13</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-14</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-15</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:24</td>
+						<td>17:32</td>
+						<td>8.08</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-16</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:55</td>
+						<td>17:39</td>
+						<td>7.44</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-17</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>izin</td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-18</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:42</td>
+						<td>17:33</td>
+						<td>7.51</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-19</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:36</td>
+						<td>17:35</td>
+						<td>7.59</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-20</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-21</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-22</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>9:04</td>
+						<td>17:35</td>
+						<td>7.31</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-23</td>
+					 	<td>Tue</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:57</td>
+						<td>17:37</td>
+						<td>7.4</td>
+						<td>0</td>
+						<td>Terlambat datang
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-24</td>
+					 	<td>Wed</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:43</td>
+						<td>17:34</td>
+						<td>7.51</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-25</td>
+					 	<td>Thu</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:41</td>
+						<td>17:41</td>
+						<td>8</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-26</td>
+					 	<td>Fri</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>cuti</td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-27</td>
+					 	<td>Sat</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr bgcolor="#F9516F">
+					 	<td>2016-02-28</td>
+					 	<td>Sun</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td></td>
+						<td>0:00</td>
+						<td>0:00</td>
+						<td>0</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+					 	<tr >
+					 	<td>2016-02-29</td>
+					 	<td>Mon</td>
+						<td>08:30</td>
+						<td>17:30</td>
+						<td>Hadir</td>
+						<td>8:42</td>
+						<td>17:38</td>
+						<td>7.56</td>
+						<td>0</td>
+						<td>
+
+						</td>
+					</tr>
+					 
+						</tbody>
+					</table>
+
+					<br/>
+				
+				</form>
+			
+					</table>
+				</div>
+			</div>
+		
